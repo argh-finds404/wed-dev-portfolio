@@ -17,6 +17,10 @@
      color: #474747;
 }
 
+.dark-3{
+    color:#757575;
+}
+
 .btn-primary{
     color: #FFFFFF;
     background-color: #FD6E0A;
@@ -45,6 +49,11 @@
 
 .text-center{
     text-align:center;
+}
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
 }
 
 /* Header */
@@ -173,4 +182,34 @@ padding: 33px;
 text-align: left;
 border-radius: 5px;
 box-shadow: 0px 6px 50px 0px #00000029;
+}
+
+
+/* resume section */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.experiance-subtitle{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.experience-description{
+    font-weight: 450;
+    font-size: 16px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+.section-title{
+    text-align: center;
 }
