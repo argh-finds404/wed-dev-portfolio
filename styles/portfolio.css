@@ -27,6 +27,22 @@
     border-radius: 6px;
 }
 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color:#181818
+}
+
+.section-description{
+        font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+}
+
+.secondary-background{
+    background-color: #FFF8F3;
+}
+
 /* Header */
 .header{
     background-image: url('/images/developer.png') ,url('/images/header_bg.png');
@@ -68,8 +84,10 @@ nav ul{
 
 .banner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 35px 0 220px;
+    gap: 160px;
+    
 }
 
 .banner-content{
@@ -97,4 +115,44 @@ nav ul{
 .banner-profile-picture{
     width: 584px;
     height: 675px;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin: 130px;
+    
+
+}
+.about-items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-item{
+    
+}
+
+.about-card {
+  border: 1px solid black;
+  padding: 50px;
+  background-color: white;
+  border-radius: 5px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+ 
+
+
+.item-description{
+    font-weight: bold;
+}
+
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
 }
