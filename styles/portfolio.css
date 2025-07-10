@@ -213,3 +213,35 @@ box-shadow: 0px 6px 50px 0px #00000029;
 .section-title{
     text-align: center;
 }
+
+.section-description , .dark-2{
+     font-weight: 450;
+    font-size: 16px;
+}
+
+/* Footer style */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+    justify-content: space-evenly;
+}
+
+.footer-column{
+    width: 50%;
+}
+
+footer input[type="text"],footer input[type="email"], textarea{
+height: 64px;
+border-radius: 5px;
+background-color: #FFFFFF;
+display: block;
+width: 100%;
+padding: 10px 20px;
+color:#474747 ;
+margin-bottom: 24px;
+border: none;
+font-size: 20px;
+}
+
